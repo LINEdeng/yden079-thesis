@@ -1,7 +1,4 @@
 # Diversity-Aware-Retrieval-Augmented-Generation (DARAG)
-
-**Adaptive Multi-Round RAG for Complex Multi-Hop Question Answering**
-
 To address the widespread issues of **information redundancy** and **insufficient evidence coverage** that traditional RAG faces on complex multi-hop question answering, this project implements **Diversity-Aware-Retrieval-Augmented-Generation(DARAG)**, an adaptive multi-round RAG method. By dynamically scheduling retrieval and generation and combining MMR-based reranking, it improves evidence coverage and diversity while preserving response efficiency, and strengthens the completeness and sufficiency of information along the multi-hop reasoning chain.
 
 ---
@@ -132,10 +129,10 @@ If you use this code or idea in your work, please cite:
 
 ```bibtex
 @misc{adaiterdar,
-  title={AdaIterDAR: Adaptive Multi-Round RAG for Multi-Hop Question Answering},
-  author={...},
+  title={Diversity-Aware-Retrieval-Augmented-Generation},
+  author={LINEDeng},
   year={2025},
-  url={https://github.com/.../AdaIterDAR}
+  url={https://github.com/LINEdeng/Diversity-Aware-Retrieval-Augmented-Generation}
 }
 ```
 
