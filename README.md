@@ -128,7 +128,7 @@ Options: `--backend` (`local` | `openai`), `--model`, `--file`, `--batch-size`.
 If you use this code or idea in your work, please cite:
 
 ```bibtex
-@misc{adaiterdar,
+@misc{darag,
   title={Diversity-Aware-Retrieval-Augmented-Generation},
   author={LINEDeng},
   year={2025},
