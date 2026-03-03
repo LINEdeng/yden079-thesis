@@ -4,7 +4,7 @@ To address the widespread issues of **information redundancy** and **insufficien
 ---
 ## Overview
 
-Traditional RAG methods often suffer from **information redundancy** and **insufficient evidence coverage** on complex multi-hop QA tasks. We propose **AdaIterDAR** (DARAG), an adaptive multi-round RAG approach that:
+Traditional RAG methods often suffer from **information redundancy** and **insufficient evidence coverage** on complex multi-hop QA tasks. We propose **DARAG**, an adaptive multi-round RAG approach that:
 
 - **Dynamically schedules** retrieval and generation: single-round for simple questions, multi-round iterative retrieval and reasoning for complex ones.
 - **Introduces MMR (Maximal Marginal Relevance)** in the reranking stage to improve **diversity** and **evidence coverage**, reducing redundant content while keeping high relevance.
